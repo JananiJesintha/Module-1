@@ -1,31 +1,27 @@
-## Experiment No: 1d – Conditional Statements- Checking Vowel or not
+## Experiment No: 1d – Character literal
 
 ## AIM  
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
+To Write a Python program to print the character literal.
+
 ## ALGORITHM  
 1. Begin the program.  
 2. Take a character input from the user
-3. Convert the character to lowercase
-4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
-5. If it is a vowel, display "The given character is a vowel"
-6. Otherwise, display "The given character is NOT a vowel"
-4. Terminate the program.
+3. Print the character literal.
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
-
-char = input("Enter a character: ")
-char_lower = char.lower()
-
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
-else:
-    print("The given character is NOT a vowel")
+# Reg.No-212223060100
+# Name- Janani Jesintha O
+ch_V = "V"
+ch_c = "c"
+print(ch_V)
+print(ch_c)
 ```
 
 ## OUTPUT
 
+<img width="845" height="275" alt="image" src="https://github.com/user-attachments/assets/2da7723c-445c-4a51-abae-c80244c5d76d" />
+
 ## RESULT
+
+Thus, the python code is written and executed successfully.
