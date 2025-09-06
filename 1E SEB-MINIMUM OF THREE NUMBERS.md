@@ -1,34 +1,36 @@
-# Experiment No: 1e – SEB-Minimum of Three Numbers
+# Experiment No: 1e – Result as true or false
 
 ## AIM  
-To write a Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator).
+To write a Python program to print the following expression as true or false.
 
 ## ALGORITHM  
-1. Begin the program.  
-2. Read the three numbers: `num1`, `num2`, and `num3` from the user.  
-3. Compare `num1`, `num2`, and `num3` to find the smallest number:  
-   - If `num1` is less than or equal to both `num2` and `num3`, then `num1` is the minimum.  
-   - Else, if `num2` is less than or equal to both `num1` and `num3`, then `num2` is the minimum.  
-   - Otherwise, `num3` is the minimum.  
-4. Print the minimum value along with the input numbers in the format:  
-   `"The minimum of num1, num2, num3 is min_num."`  
-5. Terminate the program.
+
+1.Input three numbers.
+2.Use Python’s built-in min() to find the smallest.
+3.Print the result.
+4.End.
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
+# Reg.No- 212223060100
+# Name-Janani Jesintha O
 
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
+a = (False == True)
+b = (False== 0)
+c = False + True
+d = False + 5
+print("a is", a)
+print("b is", b)
+print("c:", c)
+print("d:", d)
 
-min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and num2 <= num3) else num3
-
-print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
 ```
 
 ## OUTPUT
 
+<img width="835" height="312" alt="image" src="https://github.com/user-attachments/assets/da16ac1a-912d-4c56-a448-a171934da27b" />
+
+
 ## RESULT
+
+Thus, the python code is written and executed successfully.
